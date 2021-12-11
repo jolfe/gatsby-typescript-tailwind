@@ -1,9 +1,8 @@
 {
-  "name": "gatsby-typescript-tailwind",
-  "private": false,
+  "name": "portfolio",
+  "private": true,
   "description": "A gatsby starter kit using TypeScript and Tailwind CSS",
   "version": "0.1.247",
-  "author": "Florentin Eckl <ecklf@icloud.com>",
   "dependencies": {
     "react": "17.0.2",
     "react-dom": "17.0.2",
@@ -53,7 +52,6 @@
     "tailwind css",
     "starter"
   ],
-  "license": "MIT",
   "scripts": {
     "prepare": "husky install",
     "type-check": "tsc --noEmit",
@@ -68,9 +66,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jolfe/portfolio/"
-  },
-  "bugs": {
-    "url": "https://github.com/impulse/gatsby-typescript-tailwind/issues"
   },
   "husky": {
     "hooks": {
